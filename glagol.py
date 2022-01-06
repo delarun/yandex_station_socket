@@ -2,8 +2,7 @@ import requests, websockets, ssl, time, json, variables
 
 def ys_struct(data):
     data = json.loads(data)
-    out = {"status":data['status'], 'state': data['state']}
-    return json.dumps(out)
+    return json.dumps(data['state'])
 
 async def ys_sock(payload):
     ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)

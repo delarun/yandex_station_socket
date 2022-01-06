@@ -7,3 +7,5 @@ YM_TOKEN = "" # Get Token (https://oauth.yandex.ru/authorize?response_type=token
 YS_IP = "" # Station port
 YS_PORT = 1961  # Station default port
 YS_ID = ""  # Get it from https://yandex.ru/quasar
+SPOTIFY_TOKEN = "" # Yanify module
+HOST_IP = ""
